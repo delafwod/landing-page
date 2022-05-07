@@ -1,5 +1,12 @@
+body {
+    padding:0;
+    margin:0;
+}
+
 .megachair {
-    height:300px;
+    height:250px;
+    width:250px;
+    display:flex;
 }
 
 .pic {
@@ -43,12 +50,19 @@ a:visited {
 .topcontent {
     display:flex;
     background-color:darkblue;
-
+    align-items: center;
+    padding:5%;
+    height:15%;
 }
 
 .lefttop {
     display:flex;
     flex-direction:column;
+    padding-left:10%;
+}
+.righttop {
+    display:flex;
+    justify-content:flex-start;
 }
 
 .head1 {
@@ -61,10 +75,96 @@ a:visited {
     color:#FFFBA2;
     font-size:18px;
     padding:18px;
+    width:50%;
 }
 
 .signup {
-    width:75px;
+    width:80px;
     margin-left:18px;
+    height:20px;
+    background-color:lightskyblue;
+    border-radius:3px;
 }
 
+.midtitle {
+    display:flex;
+    justify-content:center;
+    color:darkblue;
+    font-weight:900;
+    font-size:26px;
+    padding:10px;
+}
+
+.halfmid {
+    background-color:#FFFBA2;
+    padding:10px;
+}
+
+.squares {
+    display:flex;
+    justify-content: center;
+    gap:5%;
+}
+.text {
+    font-size:12px;
+    width:150px;
+    color: darkblue;
+}
+
+.pic {
+    border-radius:10px;
+    border-color: darkblue;
+}
+
+.mid {
+    background-color:#F4EBD0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:5%;
+}
+
+.quote {
+    font-size:24px;
+    width:400px;
+}
+
+.god {
+    display:flex;
+    width:400px;
+    justify-content: flex-end;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    margin:30px;
+    margin-left:20%;
+    margin-right:20%;
+    background-color:darkblue;
+    padding:15px;
+    align-items:center;
+}
+
+.writing {
+    color:#FFFBA2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.big {
+    font-size:larger;
+    font-weight:bold;
+}
+
+
+.copyright {
+    display:flex;
+    background-color: darkblue;
+    justify-content: center;
+    padding: 20px;
+    margin:0px;
+}
+
+.words {
+    color:#F4EBD0;
+}
