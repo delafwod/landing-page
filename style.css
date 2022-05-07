@@ -1,3 +1,70 @@
 .megachair {
     height:300px;
 }
+
+.pic {
+height:150px;
+width:150px;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    gap:14px;
+    padding:10px;
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:darkblue;
+}
+
+.chairshogun {
+margin-right: auto;
+color: #FFFBA2;
+font-size:30px;
+font-weight:500;
+padding:10px;
+font-family:'Papyrus','Copperplate',fantasy;
+}
+
+a:link {
+color:#FFFBA2;
+text-decoration:none;
+}
+
+a:visited {
+    color:#FFFBA2;
+    text-decoration:none;
+}
+
+.topcontent {
+    display:flex;
+    background-color:darkblue;
+
+}
+
+.lefttop {
+    display:flex;
+    flex-direction:column;
+}
+
+.head1 {
+    color:#FFFBA2;
+    font-size:26px;
+    padding:18px;
+}
+
+.head2 {
+    color:#FFFBA2;
+    font-size:18px;
+    padding:18px;
+}
+
+.signup {
+    width:75px;
+    margin-left:18px;
+}
+
